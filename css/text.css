@@ -1,0 +1,8 @@
+.shadow{
+    background-color: blue;
+    width: 40%;
+    height: 400px;
+    margin-left: 30%;
+    margin-top: 60px;
+    box-shadow: 20px 40px 60px purple;
+}

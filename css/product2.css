@@ -1,0 +1,23 @@
+body{
+    background-color: #f0f0f0;
+}
+.all-container{
+    background-color: white;
+    margin: 50px 8%;
+    text-align: center;
+    box-shadow: 2px 5px 15px;
+    display: flex;
+}
+.btn a{
+    background-color: #f68b1e;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+}
+.btn{
+    padding-bottom: 30px;
+    padding-top: 0;
+}
+img{
+    width: 100%;
+}

@@ -1,0 +1,23 @@
+.card{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 4px 8px 15px black;
+}
+.all-container-content{
+    background-color: aqua;
+    padding: 40px;
+    display: flex;
+    column-gap: 3rem;
+}
+.card img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.btn a{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+}

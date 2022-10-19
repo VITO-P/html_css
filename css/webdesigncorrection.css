@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+
+.all-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 3px 4px 15px #555;
+    padding: 8px;
+}
+
+.nav-logo{
+    width: 100px;
+
+}
+
+.nav-right a{
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+
+a.last-link{
+    background-color: orangered;
+    padding: 10px;
+    color: white 
+}
+.all-hero{
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+
+}
+
+@media(max-weight: 800px)(
+    .all-hero(
+        flex-direction: column;
+    )
+)
+
+.hero-left{
+    margin-left: 60px;
+
+}
+
+.hero-left h2{
+    color: rgb(3, 1, 36);
+    font-size: 40px;
+
+}
+.hero-left h4{
+    color: orangered;
+
+}
+
+.hero-left p{
+    color: #555;
+    margin: 40px;
+    font-size: 15px;
+}
+
+.all-btn a{
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding: 8px 15px;
+
+}
+
+.all-btn a:last-child{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: black;
+}
+

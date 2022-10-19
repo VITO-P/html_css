@@ -1,0 +1,25 @@
+/* Hoval
+visited
+active
+ */
+ a{
+     background-color: orangered;
+     padding: 20px;
+     margin-left: 500px;
+     color: white;
+     text-decoration: none;
+
+     /* text-decoration: line-through; */
+
+ }
+ a:hover{
+     background-color: black;
+     padding: 50px;
+ }
+
+ a:visited{
+     background-color: blue;
+ }
+ a:active{
+     background-color: green;
+ }

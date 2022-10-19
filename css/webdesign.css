@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+.all-container{
+        background-color: white;
+                
+    }
+    .container{
+        background-color: whitesmoke;
+        
+    }
+    
+
+    
+    
+/*.all-flex{
+    display: flex;
+    gap: 2rem;
+}

@@ -1,0 +1,15 @@
+.container{
+    background: lightblue;
+    width: 250px;
+    height: 250px;
+    
+    border-color: black;
+    border-style: solid;
+    border-width: 10px;
+    float: 35px;
+   }
+   .inner{
+       background-color: red;
+       width: 250px;
+       height: 250px;
+   }

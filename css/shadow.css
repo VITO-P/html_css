@@ -1,0 +1,11 @@
+body{
+
+}
+.shadow{
+   background-color: green;
+   width: 40%;
+   height: 400px;
+   margin-left: 30%;
+   margin-top: 60px;
+   box-shadow: 6px 5px 15px blue;
+}

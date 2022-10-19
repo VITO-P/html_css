@@ -1,0 +1,39 @@
+.all-flex{
+    display: flex;
+    column-gap: 2rem;
+    gap: 2rem;
+
+}
+.all-flex-basis{
+    display: flex;
+    gap: 2rem;
+}
+.left-side{
+    background-color: rgb(4, 153, 235);
+    height: 100vh;
+    flex-basis: 25%;
+}
+.center-side{
+    background-color: green;
+    height: 100vh;
+    flex-basis: 50%;
+}
+.right-side{
+    background-color: rgb(4, 153, 235);
+    height: 100vh;
+    flex-basis: 25%;
+}
+/*justify content: space between
+justify-content:*/
+.all-justify{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+}
+.all-justify a{
+    text-decoration: none;
+    color: white;
+}

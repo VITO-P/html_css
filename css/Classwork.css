@@ -1,0 +1,11 @@
+.card{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 20%;
+}
+.all-container-content{
+    background-color: white;
+    padding: 20px;
+    box-shadow: 6px 8px 15px;
+}
+.card{}

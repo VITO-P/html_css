@@ -1,0 +1,175 @@
+
+*{
+    margin: 0;
+}
+
+.all-navigation{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px;
+    align-items: center;
+}
+
+.special-color{
+    color: red;
+}
+/*.nav-left{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.nav-left a{
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    padding: 20px;
+}
+
+
+a.first-link{
+    background-color: rgb(218, 6, 6);
+    padding: 10px 40px;
+    border-radius: 5px 5px 5px 5px;;
+    color: white;
+}
+
+/*.all-hero{
+    background-color: #f0f0f0;
+    align-items: center;
+    border-radius: 100px;
+
+}*/
+
+.all-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 50px;
+}
+/*width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;*/
+
+/*.hero-left{
+    display: flex;
+}*/
+
+.all-btn a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 4px 12px;
+
+}
+
+.all-btn a:last-child{
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: red;
+    justify-content: space-around;
+}
+
+
+/*.all-container{
+    background-color: skyblue;
+    height: 40vh;
+    width: 40vh;
+    padding: 60px;
+    margin: 40px;
+    display: flexbox;
+}*/
+
+.all-container{
+    background-color: whitesmoke;
+    padding: 20px;
+    display: ;
+    column-gap: 3rem;
+    border-radius: 60px;
+}
+
+.container-content{
+    background-color: whitesmoke;
+    padding: 30px;
+    column-gap: 4rem;
+    display: flex;
+    justify-content: ;
+}
+
+.cards{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.cards img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+}
+
+.all-btn a.last-link{
+    background-color: rgb(218, 6, 6);
+    padding: 5px 30px;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    align-items: center;
+}
+
+.all-btn a.last-link-b{
+    background-color: white;
+    padding: 5px 30px;
+    color: ;
+}
+
+.btn a:last-child{
+    background-color: rgb(218, 6, 6);
+    border: 1px solid #ccc;
+    color: white;
+}
+
+
+/*a.li{
+    background-color: rgb(220, 63, 63);
+    padding: 10px 40px;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+}*/
+
+
+
+   /* .all-btn{
+        background-color: transparent;
+        border: 1px solid rgb(230, 83, 83);
+        color: red;
+    }
+    
+    
+
+/*@media(max-weight: 800px)(
+    .all-hero(
+        flex-direction: column;
+    )
+)
+
+/*.hero-right{
+    margin-left: 60px;
+
+}
+
+
+.hero-right{
+    margin-left: 10px;
+
+}
+
+/*.nav-right{
+    gap: 2rem;
+}

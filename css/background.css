@@ -1,0 +1,44 @@
+/*
+hex-value
+rgb
+rgb#
+*/
+*{
+margin: 0;
+padding: 0;
+}
+.container{
+    background-color: lightblue;
+    /* background-image: url(../img/FLORIDA-SUPPLY-USA_airplane-banner-1.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    background: linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.7)),url(../img/FLORIDA-SUPPLY-USA_airplane-banner-1.jpg) center/cover no-repeat fixed;
+    height: 100vh;
+    padding-top: 10%;
+}
+.all-container{
+    background-color: white;
+    box-shadow: 2px 7px 20px blue;
+    text-align: center;
+    width: 60%;
+    height: 250px;
+    margin-left: 20%;
+    padding: 30px;
+}
+.btn a{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+.btn{
+    margin-top: 30px;
+}
+a.btn-secondary{
+    background-color: orangered;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: blue;
+    width: 100%;
+    height: 500px;
+    background-image: url/*(../img/processed.jpeg)*/;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
